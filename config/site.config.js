@@ -14,7 +14,7 @@ module.exports = {
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: "Aerocqt's library",
+  title: "Aerocat's library",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
   baseDirectory: process.env.BASE_DIRECTORY || '/alr',
@@ -50,7 +50,7 @@ module.exports = {
   links: [
     {
       name: 'GitHub',
-      link: 'https://github.com/Aerocqt',
+      link: 'https://github.com/Aerocat',
     },
   ],
 
@@ -63,7 +63,7 @@ module.exports = {
   // Note: This BYPASSES password protection for specific file types
   opds: {
     enabled: false,
-    title: "Aerocqt's library",
+    title: "Aerocat's library",
     description: 'OPDS catalog powered by onedrive-cf-index-ng.',
     fileExtensions: ['.epub', '.pdf', '.mobi', '.azw3', '.azw', '.cbz', '.cbr'],
   },
