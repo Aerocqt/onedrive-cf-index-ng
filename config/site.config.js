@@ -26,11 +26,11 @@ module.exports = {
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
   // googleFontSans - the sans serif font used in onedrive-cf-index-ng.
-  googleFontSans: 'Google Sans Flex',
+  googleFontSans: 'Inter',
   // googleFontMono - the monospace font used in onedrive-cf-index-ng.
-  googleFontMono: 'Google Sans Code',
+  googleFontMono: 'JetBrains Mono',
   // googleFontLinks -  an array of links for referencing the google font assets.
-  googleFontLinks: ['https://fonts.googleapis.com/css2?family=Google+Sans+Code&family=Google+Sans+Flex:wght@400;500;700&display=swap'],
+  googleFontLinks: ['https://fonts.googleapis.com/css2?family=Inter&family=JetBrains+Mono:wght@400;500;700&display=swap'],
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
@@ -50,14 +50,14 @@ module.exports = {
   links: [
     {
       name: 'GitHub',
-      link: 'https://github.com/Aerocat',
+      link: 'https://github.com/Aerocqt',
     },
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
   // without timezone and replacing T with space.
-  datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
+  datetimeFormat: 'DD-MM-YYYY HH:mm:ss',
 
   // [OPTIONAL] OPDS catalog support for ebook readers.
   // Note: This BYPASSES password protection for specific file types
